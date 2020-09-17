@@ -17,7 +17,7 @@ class Pokemon
  end 
  
  def self.find(id,db)
-  db.excute( "SELECT * FROM pokemon WHERE id = ? LIMIT 1;")
+  db.execute( "SELECT * FROM pokemon WHERE id = ? LIMIT 1;")
 end
    
 end
